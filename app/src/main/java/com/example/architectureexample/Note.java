@@ -38,6 +38,3 @@ public class Note {
         return priority;
     }
 }
-
-//written getter methods of all variables, one setter method of the primary key
-//n constructor without primary key
