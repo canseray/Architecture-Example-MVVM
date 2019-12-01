@@ -1,4 +1,4 @@
-package com.example.architectureexample;
+package com.example.architectureexample.ui.notelist;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,6 +17,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.architectureexample.db.local.entity.Note;
+import com.example.architectureexample.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;

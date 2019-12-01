@@ -1,4 +1,4 @@
-package com.example.architectureexample;
+package com.example.architectureexample.db.local.dao;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -6,6 +6,8 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
+
+import com.example.architectureexample.db.local.entity.Note;
 
 import java.util.List;
 

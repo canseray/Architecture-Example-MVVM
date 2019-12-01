@@ -1,9 +1,13 @@
-package com.example.architectureexample;
+package com.example.architectureexample.repository;
 
 import android.app.Application;
 import android.os.AsyncTask;
 
 import androidx.lifecycle.LiveData;
+
+import com.example.architectureexample.db.local.entity.Note;
+import com.example.architectureexample.db.local.dao.NoteDao;
+import com.example.architectureexample.db.local.NoteDatabase;
 
 import java.util.List;
 
